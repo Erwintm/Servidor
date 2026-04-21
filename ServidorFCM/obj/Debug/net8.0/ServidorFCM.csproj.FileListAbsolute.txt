@@ -27,3 +27,4 @@ C:\Users\nearj\Downloads\ServidorFCM\ServidorFCM\ServidorFCM\obj\Debug\net8.0\re
 C:\Users\nearj\Downloads\ServidorFCM\ServidorFCM\ServidorFCM\obj\Debug\net8.0\ServidorFCM.pdb
 C:\Users\nearj\Downloads\ServidorFCM\ServidorFCM\ServidorFCM\obj\Debug\net8.0\ServidorFCM.genruntimeconfig.cache
 C:\Users\nearj\Downloads\ServidorFCM\ServidorFCM\ServidorFCM\obj\Debug\net8.0\ref\ServidorFCM.dll
+C:\Users\nearj\Downloads\ServidorFCM\ServidorFCM\ServidorFCM\obj\Debug\net8.0\ServidorFCM.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ServidorFCM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eaa6a9468eb2afbf8f095fcb0778e1b5dea4bace")]
 [assembly: System.Reflection.AssemblyProductAttribute("ServidorFCM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ServidorFCM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

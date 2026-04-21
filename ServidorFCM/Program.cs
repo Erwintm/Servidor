@@ -8,7 +8,7 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        // 1. Cargar la llave del servidor
+        //  Cargar la llave del servidor
         FirebaseApp.Create(new AppOptions()
         {
             Credential = GoogleCredential.FromFile("llave_firebase.json")
@@ -16,13 +16,13 @@ class Program
 
         Console.WriteLine("--- ENVIADOR DE MENSAJES PUSH ---");
 
-        // 2. Aquí pegas el token que me pasaste arriba
+        // Token
         string targetToken = "dhWwFOs5QoW0Uhf_4yH8cE:APA91bGfj6srDMVyuZb024YPrhohAQZl75IkHAxhI2OvgnsGY4n_QK7lZQc9CiQSC3scc84TVRKlj95aBk_5K9aatpvQHXwlK6UStlDwrrsW_wSyXztZUUI";
 
         Console.WriteLine("Escribe el mensaje que quieres enviar al celular:");
         string mensajeUsuario = Console.ReadLine();
 
-        // 3. Crear la notificación
+        //  Crear la notificación
         var message = new Message()
         {
             Token = targetToken,
@@ -33,7 +33,7 @@ class Program
             }
         };
 
-        // 4. Enviar
+        //  Enviar
         try
         {
             string response = await FirebaseMessaging.DefaultInstance.SendAsync(message);
